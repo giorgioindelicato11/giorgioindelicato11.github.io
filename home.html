@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Galleria d'arte del Pellegrino</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!--Google fonts link-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<!--link font awesome -->
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body>
+  <!--NAVBAR ADAPTIVE-->
+     <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper white">
+        <a href="#" class="brand-logo">Galleria del Pellegrino</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#registrazione">Login</a></li>
+          <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#ospita">Ospita</a></li>
+        </ul>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#registrazione">Login</a></li>
+          <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#ospita">Ospita</a></li>
+      </ul>
+      </div>
+    </nav>
+  </div>
+
+<!--intro-->
+  <div id="index-banner" class="parallax-container">
+    <div class="section-intro no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center black-text">La Galleria dell'Isola di Ischia</h1>
+        <div class="row center">
+          <h4 class="header col s12 light ">Una galleria che accoglie i turisti di tutt'Italia e che espone le opere più rare e belle del mondo</h4>
+        </div>
+        <div class="row center">
+         <a href="display.php" id="download-button" action="display.php" class="btn-large waves-effect waves-light red lighten-1">Accedi alla nostra mostra</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1">
+    </div>
+  </div>
+
+<!--servizio-->
+
+  <div id="servizio" class="container">
+    <div class="section">
+      <div class="col-servizio">
+
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">museum</i></h2>
+              <h5 class="center">Guarda ciò che hai sempre sognato vedere</h5>
+
+              <p class="light">A tutti è capitato almeno una volta nella vita di voler ammirare, di persona, quell'opera d'arte che però è custodita in qualche museo o galleria lontana da noi? La Galleria del Pellegrino è il primo concept a livello mondiale che propone una soluzione.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">brush</i></h2>
+              <h5 class="center">Esponi le tue opere</h5>
+
+              <p class="light">Sfrutta la nostra vetrina internazionale per far crescere la tua arte. Contattaci per affittare i nosti spazi espositivi e lascia che i visitatori ti conoscano!</p>
+            </div>
+          </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">palette</i></h2>
+            <h5 class="center">Compra i quadri e sostieni i nostri content creators</h5>
+
+            <p class="light">Oltre a ospitare,a rotazione, alcuni dei quadri più famosi al mondo, offriremo a giovani artisti uno spazio per crescere, cosicchè anche tu possa supportarli e apprezzare la loro arte new age.</p>
+          </div>
+        </div>
+      </div>
+     </div> 
+    </div>
+  </div>
+
+<!--registrazione-->
+ 
+<div class="parallax-container valign-wrapper" id="registrazione">
+  <div class="section-intro no-pad-bot">
+  	<div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  	 <div class="container">
+  	      <div class="row center">
+  	      	  <div class="row">
+  	      	  	  <div class="input-field col s12 offset-l4">
+		  	      	  <i class="material-icons registrazione-icon">flight</i>
+		              <h4 class="header col s12 light black-text registrazione-subtitle">Registrati qui per la nostra beta
+		              </h4>
+					    <form action="login.php" method="get" name="regform">
+					      <p class="registrazione black-text"> Compila i seguenti campi per completare la registrazione   
+					      </p>
+						    <input type="text" name="nome" size="20" class="validate white center black-text" placeholder="inserisci qui il tuo nome">&nbsp;&nbsp;
+						    <input type="text" name="cognome" size="25" class="validate white center black-text" placeholder="inserisci qui il tuo cognome">
+						    <input type="text" name="email" size="30"
+						    class="validate white center black-text" placeholder="inserisci qui la tua email"> &nbsp;
+						    <button class="btn btn-registrazione waves-effect waves-light red lighten-1" type="submit" name="action">Voglio Registrarmi!!
+            				</button>
+					    </form>
+					</div>    
+				</div>    
+	      </div>
+	   </div>
+  </div>
+</div>
+
+
+
+    
+  </div>
+<!--ospita--> 
+  <div id="ospita" class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+         <i class="material-icons ospita-icon red-text text-lighten-1">place</i>
+          <h3>Vuoi affittare i nostri spazi espositivi per le tue opere?</h3>
+          <h4 class="header col s12 light black-text ospita-subtitle">Compila il seguente questionario, indicando l'opera che vuoi presentare, il suo stile e la tua email.
+           <br> Ti ricontatteremo entro 24h!
+          </h4>
+           <button class="col s12 center btn btn-ospita waves-effect waves-light red lighten-1" type="submit" name="action">Voglio affittare i vostri spazi!!
+        </div>
+      </div>
+
+    </div>
+  </div>
+ 
+
+<!--FOOTER-->
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h5 class="white-text">Contattaci</h5>
+             <a href="mailto:giorgioindelicato11@gmail.com" class="social-icon">
+                <i class="material-icons ospita-icon red-text text-lighten-1">email</i>
+              </a>
+
+             <a href="https://www.facebook.com/profile.php?id=100012608644913" target="blank" class="social-icon">
+               <i class="material-icons ospita-icon red-text text-lighten-1">facebook</i>
+             </a>
+
+           <a href="https://api.whatsapp.com/send?phone=393927656234" target="blank">
+           <span class="iconify" id="social-icon1" data-icon="mdi-whatsapp" data-inline="false"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+        <br><br>
+
+    <div class="footer-copyright">
+      <div class="container">
+      2020 &copy <a class="brown-text text-lighten-3" href="home.html">Galleria Del Pellegrino</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
+
+

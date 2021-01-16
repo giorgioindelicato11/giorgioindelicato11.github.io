@@ -1,0 +1,71 @@
+ <html>   
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Galleria d'arte del Pellegrino</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!--Google fonts link-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<!--NAVBAR ADAPTIVE-->
+     <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper white">
+        <a href="home.html" class="brand-logo">Galleria del Pellegrino</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="home.html#registrazione">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div> 
+  <body>  
+  <br /><br />  
+  <div class="container" style="width:500px;">  
+  <h3 align="center">Pagina riservata al Developer</h3>  
+  <br />  
+  <div class="parallax-container valign-wrapper" id="registrazione">
+  <div class="section no-pad-bot">
+     <div class="container">
+          <div class="row center">
+              <div class="row">
+                  <div class="input-field col s12">
+                  <i class="material-icons registrazione-icon">settings</i>
+                  <h5 class="header col s12 light black-text registrazione-subtitle">Registrazione autori
+                  </h5>
+              <form action="manautori.php" method="get" name="regform">
+                <p class="registrazione black-text"> Compila i seguenti campi per completare la registrazione   
+                </p>
+                <input type="number" name="id_autore" size="20" class="validate white center black-text" placeholder="inserire ID artista">&nbsp;&nbsp;
+                <input type="text" name="nome_autore" size="25" class="validate white center black-text" placeholder="inserire nome e cognome dell'artista">
+                <input type="text" name="nome_darte" size="30"
+                class="validate white center black-text" placeholder="inserire qui l'eventuale nome d'arte"> &nbsp;
+                <input type="text" name="nascita_morte" size="25" class="validate white center black-text" placeholder="inserire data di nascita e di morte dell'artista">
+                <button class="btn btn-registrazione waves-effect waves-light red lighten-1" type="submit" name="action">Immetti record
+                    </button>
+              </form>
+          </div>    
+        </div>    
+        </div>
+     </div>
+  </div>
+</div>
+  <br />  
+  <br />  
+  <table class="table table-bordered">  
+  <tr>  
+  </tr>
+  
+  </table>  
+  </div>  
+  </body>  
+  </html> 
+    <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
